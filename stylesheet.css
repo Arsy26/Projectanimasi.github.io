@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+header{
+height: 85px;
+width: 100%;
+background-color: black;
+}  
+
+
+.logo{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    float:left;
+    color: red;
+    animation: bounce;
+    font-size: 40px;
+  
+    
+}
+.logo p{
+    animation: bounce;
+}
+
+.header-list li{
+    margin-left: 40px;
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+    margin-left: 30px;
+    color: white;
+    display:block;
+    cursor: pointer;
+    
+}
+li:hover{
+    opacity: 0.5;
+}
+.header-right{
+    float: right;
+    background-color:rgba(54, 52, 81, 0.3);
+    transition: all 0.5;
+}
+.header-right:hover{
+    background-color:rgb(54, 52, 81, 0.8);
+}
+.header-right a{
+    color:white;
+    display:block;
+    line-height:50px;
+    padding-left:25px;
+    padding-right:25px;
+    
+}
+
+.container {
+    
+        width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;     
+}
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-color: #E84545;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  h1{
+    font-size: 40px;
+  }
